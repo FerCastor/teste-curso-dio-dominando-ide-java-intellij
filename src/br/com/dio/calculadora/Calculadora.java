@@ -23,21 +23,20 @@ public class Calculadora {
         System.out.println(a + " / " + b + " = " + divide);
     }
 
-    public static int soma(int a, int b){
+    public static int soma(int a, int b) {
         return a + b;
     }
 
-    public static int subtracao(int a, int b){
+    public static int subtracao(int a, int b) {
         return a - b;
     }
 
-    public static int multiplicacao(int a, int b){
+    public static int multiplicacao(int a, int b) {
         return a * b;
     }
 
-    public static float divisao(int a, int b){
-        float resultado = (float) a / b;
-        return resultado;
+    public static float divisao(int a, int b) {
+        return (float) a / b;
     }
 
 }
