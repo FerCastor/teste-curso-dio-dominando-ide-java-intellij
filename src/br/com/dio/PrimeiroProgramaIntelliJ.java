@@ -13,9 +13,6 @@ public class PrimeiroProgramaIntelliJ {
         Livro livro1 = new Livro("O problema dos 3 corpos", 300);
         System.out.println(livro1);
 
-        /*int a = 5;
-        int b = 3;
-        System.out.println("A soma é " + (a + b));*/
     }
 }
 
